@@ -12,7 +12,7 @@ Tutorial
 
 5 - If needed write allow type to paste code to console  
 
-6 - Change the code NUMERO_DE_TELEFONE_NO_FORMATO_55819RESTODONUMERO for your friend number  
+6 - Change the code 5581NUMERO for your friend number 
 
 7 - Example: 558299999999  
 
