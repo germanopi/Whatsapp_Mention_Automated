@@ -18,3 +18,5 @@ Tutorial
 
 8 - Copy all the code and paste to console  
 
+Every 50 seconds it should send and popup a notification to your friend
+
