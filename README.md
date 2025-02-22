@@ -2,8 +2,10 @@
 Mention someone in Whatsapp web how many times you desire
 
 Tutorial 
-1 - Open Whatsapp 
-2 - Choose your victim / friend 's chat
+1 - Open Whatsapp  
+
+2 - Choose your victim / friend 's chat  
+
 3 - Press F12
 4 - Change to console
 5 - If needed write allow type to paste code to console
