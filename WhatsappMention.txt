@@ -6,7 +6,7 @@ async function enviarScript(scriptText, nomeContato) {
 
     // Criar menção ao contato
     textarea.focus();
-    document.execCommand('insertText', false, `@${nomeContato}`); // Adiciona o @nome
+    document.execCommand('insertText', false, `${nomeContato}`); // Adiciona o @nome
 
     textarea.dispatchEvent(new Event('input', { bubbles: true }));
 
@@ -18,7 +18,7 @@ async function enviarScript(scriptText, nomeContato) {
     if (sendButton) sendButton.click();
 
     // Aguarda um tempo antes de permitir o próximo envio
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise(resolve => setTimeout(resolve, 50000));
 
     return true;
 }
@@ -26,9 +26,9 @@ async function enviarScript(scriptText, nomeContato) {
 // Função para enviar múltiplas mensagens de forma sequencial
 async function executarEnvios(quantidade) {
     for (let i = 0; i < quantidade; i++) {
-        await enviarScript("@", "NUMERO_DE_TELEFONE_NO_FORMATO_55819RESTODONUMERO");
+        await enviarScript("", "5581NUMERO");
     }
 }
 
 // Chamando a função para enviar 6 mensagens separadas
-executarEnvios(6);
+executarEnvios(30);
